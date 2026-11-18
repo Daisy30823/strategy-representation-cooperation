@@ -6,14 +6,14 @@ How does the choice of strategy representation change the evolution of cooperati
 
 ## Install
 
-In an existing checkout, start at the repository root. For a future author-approved Git release, clone its URL into `representation-prior-code` and enter that directory first.
+Clone the public repository and enter the project directory:
 
 ```sh
-git clone "$APPROVED_REPO_URL" representation-prior-code
+git clone https://github.com/Daisy30823/strategy-representation-cooperation.git representation-prior-code
 cd representation-prior-code
 ```
 
-Set `APPROVED_REPO_URL` to the approved repository URL when one exists. In PowerShell, use `$env:APPROVED_REPO_URL`. No hosted repository URL has been verified.
+Public GitHub repository: https://github.com/Daisy30823/strategy-representation-cooperation
 
 Use 64-bit CPython 3.13 and a CPU. The audit used Windows 11 and Python 3.13.9. Linux and macOS are untested. On Windows:
 
@@ -38,7 +38,7 @@ The pins describe versions used in the Windows audit, not a fully verified cross
 
 The data-dependent commands need `Dataset_S2_data.zip` (about 535 MB), which is **not included in the tracked source repository**. For local use, put the authorized archive in the repository root, alongside this `README.md`. This matches the current local folder layout. The archive is excluded from Git by `.gitignore`.
 
-A public download link is **not yet verified**. If the authors approve distribution, the archive can be attached to a GitHub Release (separately from the code tracked by Git); then add that release's actual asset URL here. Until then, obtain the dataset from the authors or another authorized source. Do not assume the dataset has been publicly released.
+Dataset S2 is publicly available from [GitHub Release v1.0.0](https://github.com/Daisy30823/strategy-representation-cooperation/releases/download/v1.0.0/Dataset_S2_data.zip).
 
 The reference archive used by the audit has SHA-256:
 
@@ -104,4 +104,8 @@ For now, refer to *Strategy representations act as hidden priors in the evolutio
 
 ## Release and licensing status
 
-This is a local release candidate, not a verified public archival release. Software licensing and any redistribution of Dataset S2 require authorization from the relevant rights holders. No license is asserted here. Do not publish the data ZIP as a Git commit; if distribution is approved, attach it separately as a GitHub Release asset or use an approved research-data archive, then add its verified download URL and checksum to this README.
+The research code and Dataset S2 are publicly available on GitHub.
+
+Release v1.0.0: https://github.com/Daisy30823/strategy-representation-cooperation/releases/tag/v1.0.0
+
+Dataset S2 is provided as a separate downloadable ZIP attachment. No software license is currently declared. Redistribution permissions for included third-party material remain to be confirmed.
