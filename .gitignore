@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+outputs/
+*.log
+Dataset_S2_data.zip
+.DS_Store
+Thumbs.db
