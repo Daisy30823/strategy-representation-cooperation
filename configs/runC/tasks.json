@@ -1,0 +1,2082 @@
+[
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__s11__f0.05__b0.0__r0",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 951000,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_s11.npz",
+      "floor": 0.05
+    },
+    "requires": [
+      "priors/prior_CIRC16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__s11__f0.05__b0.0__r1",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 951001,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_s11.npz",
+      "floor": 0.05
+    },
+    "requires": [
+      "priors/prior_CIRC16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__s11__f0.05__b0.0__r2",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 951002,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_s11.npz",
+      "floor": 0.05
+    },
+    "requires": [
+      "priors/prior_CIRC16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__s11__f0.05__b0.0__r3",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 951003,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_s11.npz",
+      "floor": 0.05
+    },
+    "requires": [
+      "priors/prior_CIRC16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__s11__f0.05__b1.0__r0",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 951010,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_s11.npz",
+      "floor": 0.05
+    },
+    "requires": [
+      "priors/prior_CIRC16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__s11__f0.05__b1.0__r1",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 951011,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_s11.npz",
+      "floor": 0.05
+    },
+    "requires": [
+      "priors/prior_CIRC16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__s11__f0.05__b1.0__r2",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 951012,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_s11.npz",
+      "floor": 0.05
+    },
+    "requires": [
+      "priors/prior_CIRC16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__s11__f0.05__b1.0__r3",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 951013,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_s11.npz",
+      "floor": 0.05
+    },
+    "requires": [
+      "priors/prior_CIRC16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__s11__f0.5__b0.0__r0",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 960000,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_s11.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_CIRC16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__s11__f0.5__b0.0__r1",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 960001,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_s11.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_CIRC16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__s11__f0.5__b0.0__r2",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 960002,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_s11.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_CIRC16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__s11__f0.5__b0.0__r3",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 960003,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_s11.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_CIRC16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__s11__f0.5__b1.0__r0",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 960010,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_s11.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_CIRC16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__s11__f0.5__b1.0__r1",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 960011,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_s11.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_CIRC16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__s11__f0.5__b1.0__r2",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 960012,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_s11.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_CIRC16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__s11__f0.5__b1.0__r3",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 960013,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_s11.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_CIRC16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__s11__f2.0__b0.0__r0",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 990000,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_s11.npz",
+      "floor": 2.0
+    },
+    "requires": [
+      "priors/prior_CIRC16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__s11__f2.0__b0.0__r1",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 990001,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_s11.npz",
+      "floor": 2.0
+    },
+    "requires": [
+      "priors/prior_CIRC16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__s11__f2.0__b0.0__r2",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 990002,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_s11.npz",
+      "floor": 2.0
+    },
+    "requires": [
+      "priors/prior_CIRC16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__s11__f2.0__b0.0__r3",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 990003,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_s11.npz",
+      "floor": 2.0
+    },
+    "requires": [
+      "priors/prior_CIRC16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__s11__f2.0__b1.0__r0",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 990010,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_s11.npz",
+      "floor": 2.0
+    },
+    "requires": [
+      "priors/prior_CIRC16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__s11__f2.0__b1.0__r1",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 990011,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_s11.npz",
+      "floor": 2.0
+    },
+    "requires": [
+      "priors/prior_CIRC16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__s11__f2.0__b1.0__r2",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 990012,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_s11.npz",
+      "floor": 2.0
+    },
+    "requires": [
+      "priors/prior_CIRC16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__s11__f2.0__b1.0__r3",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 990013,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_s11.npz",
+      "floor": 2.0
+    },
+    "requires": [
+      "priors/prior_CIRC16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__big1__f0.5__b0.0__r0",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 960100,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_big1.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_CIRC16_big1.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__big1__f0.5__b0.0__r1",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 960101,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_big1.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_CIRC16_big1.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__big1__f0.5__b0.0__r2",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 960102,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_big1.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_CIRC16_big1.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__big1__f0.5__b0.0__r3",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 960103,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_big1.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_CIRC16_big1.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__big1__f0.5__b1.0__r0",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 960110,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_big1.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_CIRC16_big1.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__big1__f0.5__b1.0__r1",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 960111,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_big1.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_CIRC16_big1.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__big1__f0.5__b1.0__r2",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 960112,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_big1.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_CIRC16_big1.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__big1__f0.5__b1.0__r3",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 960113,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_big1.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_CIRC16_big1.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__big__f0.5__b0.0__r0",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 960200,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_big.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_CIRC16_big.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__big__f0.5__b0.0__r1",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 960201,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_big.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_CIRC16_big.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__big__f0.5__b0.0__r2",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 960202,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_big.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_CIRC16_big.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__big__f0.5__b0.0__r3",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 960203,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_big.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_CIRC16_big.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__big__f0.5__b1.0__r0",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 960210,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_big.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_CIRC16_big.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__big__f0.5__b1.0__r1",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 960211,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_big.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_CIRC16_big.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__big__f0.5__b1.0__r2",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 960212,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_big.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_CIRC16_big.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__CIRC16__big__f0.5__b1.0__r3",
+    "grp": "mh",
+    "var": "CIRC16",
+    "enc": 2,
+    "size": 16,
+    "seed": 960213,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_CIRC16_big.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_CIRC16_big.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__s11__f0.05__b0.0__r0",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1001000,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_s11.npz",
+      "floor": 0.05
+    },
+    "requires": [
+      "priors/prior_PROG16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__s11__f0.05__b0.0__r1",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1001001,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_s11.npz",
+      "floor": 0.05
+    },
+    "requires": [
+      "priors/prior_PROG16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__s11__f0.05__b0.0__r2",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1001002,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_s11.npz",
+      "floor": 0.05
+    },
+    "requires": [
+      "priors/prior_PROG16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__s11__f0.05__b0.0__r3",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1001003,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_s11.npz",
+      "floor": 0.05
+    },
+    "requires": [
+      "priors/prior_PROG16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__s11__f0.05__b1.0__r0",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1001010,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_s11.npz",
+      "floor": 0.05
+    },
+    "requires": [
+      "priors/prior_PROG16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__s11__f0.05__b1.0__r1",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1001011,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_s11.npz",
+      "floor": 0.05
+    },
+    "requires": [
+      "priors/prior_PROG16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__s11__f0.05__b1.0__r2",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1001012,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_s11.npz",
+      "floor": 0.05
+    },
+    "requires": [
+      "priors/prior_PROG16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__s11__f0.05__b1.0__r3",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1001013,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_s11.npz",
+      "floor": 0.05
+    },
+    "requires": [
+      "priors/prior_PROG16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__s11__f0.5__b0.0__r0",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1010000,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_s11.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_PROG16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__s11__f0.5__b0.0__r1",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1010001,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_s11.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_PROG16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__s11__f0.5__b0.0__r2",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1010002,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_s11.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_PROG16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__s11__f0.5__b0.0__r3",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1010003,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_s11.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_PROG16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__s11__f0.5__b1.0__r0",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1010010,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_s11.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_PROG16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__s11__f0.5__b1.0__r1",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1010011,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_s11.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_PROG16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__s11__f0.5__b1.0__r2",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1010012,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_s11.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_PROG16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__s11__f0.5__b1.0__r3",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1010013,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_s11.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_PROG16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__s11__f2.0__b0.0__r0",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1040000,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_s11.npz",
+      "floor": 2.0
+    },
+    "requires": [
+      "priors/prior_PROG16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__s11__f2.0__b0.0__r1",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1040001,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_s11.npz",
+      "floor": 2.0
+    },
+    "requires": [
+      "priors/prior_PROG16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__s11__f2.0__b0.0__r2",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1040002,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_s11.npz",
+      "floor": 2.0
+    },
+    "requires": [
+      "priors/prior_PROG16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__s11__f2.0__b0.0__r3",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1040003,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_s11.npz",
+      "floor": 2.0
+    },
+    "requires": [
+      "priors/prior_PROG16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__s11__f2.0__b1.0__r0",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1040010,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_s11.npz",
+      "floor": 2.0
+    },
+    "requires": [
+      "priors/prior_PROG16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__s11__f2.0__b1.0__r1",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1040011,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_s11.npz",
+      "floor": 2.0
+    },
+    "requires": [
+      "priors/prior_PROG16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__s11__f2.0__b1.0__r2",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1040012,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_s11.npz",
+      "floor": 2.0
+    },
+    "requires": [
+      "priors/prior_PROG16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__s11__f2.0__b1.0__r3",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1040013,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_s11.npz",
+      "floor": 2.0
+    },
+    "requires": [
+      "priors/prior_PROG16_s11.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__big1__f0.5__b0.0__r0",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1010100,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_big1.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_PROG16_big1.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__big1__f0.5__b0.0__r1",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1010101,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_big1.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_PROG16_big1.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__big1__f0.5__b0.0__r2",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1010102,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_big1.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_PROG16_big1.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__big1__f0.5__b0.0__r3",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1010103,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_big1.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_PROG16_big1.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__big1__f0.5__b1.0__r0",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1010110,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_big1.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_PROG16_big1.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__big1__f0.5__b1.0__r1",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1010111,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_big1.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_PROG16_big1.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__big1__f0.5__b1.0__r2",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1010112,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_big1.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_PROG16_big1.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__big1__f0.5__b1.0__r3",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1010113,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_big1.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_PROG16_big1.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__big__f0.5__b0.0__r0",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1010200,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_big.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_PROG16_big.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__big__f0.5__b0.0__r1",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1010201,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_big.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_PROG16_big.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__big__f0.5__b0.0__r2",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1010202,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_big.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_PROG16_big.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__big__f0.5__b0.0__r3",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1010203,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 0.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_big.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_PROG16_big.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__big__f0.5__b1.0__r0",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1010210,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_big.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_PROG16_big.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__big__f0.5__b1.0__r1",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1010211,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_big.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_PROG16_big.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__big__f0.5__b1.0__r2",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1010212,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_big.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_PROG16_big.npz"
+    ],
+    "cost": 300
+  },
+  {
+    "kind": "chain2",
+    "id": "mh__PROG16__big__f0.5__b1.0__r3",
+    "grp": "mh",
+    "var": "PROG16",
+    "enc": 3,
+    "size": 16,
+    "seed": 1010213,
+    "nsteps": 4000000,
+    "burn": 200000,
+    "rec": 100000,
+    "nwin": 40,
+    "cap": 2500000,
+    "nbhd": false,
+    "prm": {
+      "beta": 1.0
+    },
+    "mh": {
+      "file": "priors/prior_PROG16_big.npz",
+      "floor": 0.5
+    },
+    "requires": [
+      "priors/prior_PROG16_big.npz"
+    ],
+    "cost": 300
+  }
+]
