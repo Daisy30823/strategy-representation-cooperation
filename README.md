@@ -1,111 +1,99 @@
 # Strategy representations act as hidden priors in the evolution of cooperation
 
-Research code prepared from the revised PNAS submission package. The reviewed manuscript has author and repository placeholders. Its publication status, authorship metadata, and DOI remain unverified.
+Companion source code (Dataset S1) and reproduction instructions for the manuscript **"Strategy representations act as hidden priors in the evolution of cooperation"** by Tianyu Shi, Zheyu Dai, Shuhao Chen, Yiwen Huang, and Chengyi Tu.
 
-How does the choice of strategy representation change the evolution of cooperation in a repeated prisoner's dilemma? The model compiles genotypes into minimal Moore machines over all histories, then evolves genotypes in the small-mutation limit. It compares 14 encodings, exact stationary distributions for six small encodings, point and house-of-cards mutation, and Metropolis–Hastings reweighting. The baseline is a donation game with benefit 3, cost 1, continuation probability 0.9, decision error 0.01, population 50, and pairwise-comparison selection intensity 1.
+## Overview
 
-## Install
+How does the choice of strategy representation shape the evolution of cooperation in the repeated prisoner's dilemma? This codebase compiles genotypes across concrete encodings into canonical minimal Moore machines over all interaction histories and evaluates evolutionary dynamics in the small-mutation limit (alongside finite-mutation individual-based simulations). It implements:
 
-Clone the public repository and enter the project directory:
+- **14 strategy encodings** across memory-one and memory-two lookup tables, Boolean circuits, stack-based programs, Moore automata, and recurrent threshold networks;
+- **Exact Markov-chain stationary solutions** for six completely enumerated compact encodings;
+- **Point mutation, house-of-cards mutation, and encoding-convention controls**;
+- **Metropolis–Hastings prior reweighting** and **human experimental strategy-choice analysis**.
 
-```sh
-git clone https://github.com/Daisy30823/strategy-representation-cooperation.git representation-prior-code
-cd representation-prior-code
-```
+The baseline setting is an infinitely repeated donation game with benefit $b = 3$, cost $c = 1$, continuation probability $\delta = 0.9$, execution error $\varepsilon = 0.01$, population size $N = 50$, and pairwise-comparison selection intensity $\beta = 1$.
 
-Public GitHub repository: https://github.com/Daisy30823/strategy-representation-cooperation
+## Installation
 
-Use 64-bit CPython 3.13 and a CPU. The audit used Windows 11 and Python 3.13.9. Linux and macOS are untested. On Windows:
+Clone the repository and enter the project directory:
 
-```powershell
-python -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r requirements.txt
-$py = '.\.venv\Scripts\python.exe'
-& $py sb2/reproduce.py test
-```
+    git clone https://github.com/Daisy30823/strategy-representation-cooperation.git
+    cd strategy-representation-cooperation
 
-On POSIX systems:
+Requires 64-bit Python (>= 3.12; tested with Python 3.12 and 3.13 on Linux and Windows). Set up a virtual environment and run the unit test suite:
 
-```sh
-python3.13 -m venv .venv
-.venv/bin/python -m pip install -r requirements.txt
-.venv/bin/python sb2/reproduce.py test
-```
+**On Linux / macOS:**
 
-The pins describe versions used in the Windows audit, not a fully verified cross-platform environment. The audit used preinstalled packages because network access prevented a fresh pip install. A clean installation on Windows, Linux, or macOS still needs verification.
+    python3 -m venv .venv
+    .venv/bin/python -m pip install -r requirements.txt
+    .venv/bin/python sb2/reproduce.py test
 
-## Quick start
+**On Windows (PowerShell):**
 
-The data-dependent commands need `Dataset_S2_data.zip` (about 535 MB), which is **not included in the tracked source repository**. For local use, put the authorized archive in the repository root, alongside this `README.md`. This matches the current local folder layout. The archive is excluded from Git by `.gitignore`.
+    python -m venv .venv
+    .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+    .\.venv\Scripts\python.exe sb2/reproduce.py test
 
-Dataset S2 is publicly available from [GitHub Release v1.0.0](https://github.com/Daisy30823/strategy-representation-cooperation/releases/download/v1.0.0/Dataset_S2_data.zip).
+`test` independently verifies game payoffs, fixation probabilities, canonical Moore-machine minimization/relabeling, and genotype compilers without requiring external data files.
 
-The reference archive used by the audit has SHA-256:
+## Data Setup (Dataset_S2_data.zip)
 
-```text
-cbed752248de4a143da51738008def2d789c7e257475e8e58b93defd62227f0e
-```
+Data-dependent reproduction commands use `Dataset_S2_data.zip` (~535 MB), which archives simulation outputs, sampled phenotype frequency distributions, estimated encoding-prior summaries, and transcribed experimental strategy counts (from Table A5 of [Dal Bó and Fréchette, *Am. Econ. Rev.* 2019](https://doi.org/10.1257/aer.20181480)).
 
-You can check a local copy with `Get-FileHash -Algorithm SHA256 Dataset_S2_data.zip` in PowerShell or `sha256sum Dataset_S2_data.zip` on Linux/macOS. If a separately curated public dataset is released, its checksum and any necessary verifier changes must be documented.
+1. Download `Dataset_S2_data.zip` from the [v1.0.0 GitHub Release](https://github.com/Daisy30823/strategy-representation-cooperation/releases/download/v1.0.0/Dataset_S2_data.zip).
+2. Place `Dataset_S2_data.zip` in the repository root directory alongside `README.md`.
+3. *(Optional)* Verify the archive integrity via SHA-256 (`sha256sum Dataset_S2_data.zip` on Linux/macOS or `Get-FileHash -Algorithm SHA256 Dataset_S2_data.zip` in PowerShell):
 
-From the repository root, use the interpreter set up above to run:
+    cbed752248de4a143da51738008def2d789c7e257475e8e58b93defd62227f0e
 
-```sh
-python sb2/reproduce.py quick --dataset-s2 ./Dataset_S2_data.zip
-python sb2/reproduce.py smoke
-```
+## Quick Reproduction (Figures, Tables, and Smoke Checks)
 
-`quick` validates the archive size and SHA-256, runs the core tests, rebuilds the reweighting priors, refits the human-strategy analysis, recomputes statistics from saved outputs, and generates all seven figures and ten table bodies. Some historical inputs are archived aggregates, including the automaton-floor measurements and the original selection sweep. Outputs go to `outputs/quick/workspace/res3/`, `outputs/quick/figures/` (PDF and PNG), and `outputs/quick/tables/` (LaTeX row fragments plus the zero-count strategy list for Table S4).
+To validate the archive, run core verification tests, recompute summary statistics and human-strategy regressions from archived outputs, and regenerate all manuscript and Supplementary Information figures and tables:
 
-`smoke` is data-free. It runs a 2,000-draw sample, a 2,000-proposal baseline chain, and a 2,000-proposal reweighted chain twice. It compares the results for fixed seeds, ignoring timing. It usually takes tens of seconds on the audit machine. `test` runs the payoff, fixation, state-relabeling, and compiler checks independently.
+    python sb2/reproduce.py quick --dataset-s2 ./Dataset_S2_data.zip
 
-## Figures and tables
+Outputs are written to:
 
-After Quick or Full, pass the resulting `workspace` directory to `figures` or `tables`. Omit `--figure` to render every figure. Repeat `--figure` to select multiple figures.
+- `outputs/quick/workspace/res3/` (recomputed statistical summaries)
+- `outputs/quick/figures/` (PDF and PNG versions of `Fig1`–`Fig5` and `FigS1`–`FigS2`)
+- `outputs/quick/tables/` (LaTeX table bodies corresponding to main-text `Table 1` and SI `Tables S1`–`S9`)
 
-```sh
-python sb2/reproduce.py figures --workspace outputs/quick/workspace --figure Fig1
-python sb2/reproduce.py tables --workspace outputs/quick/workspace
-```
+For a fast, data-free determinism check (~tens of seconds), run:
 
-| Output | Subject |
+    python sb2/reproduce.py smoke
+
+You can also render individual figures or regenerate table bodies from an existing workspace:
+
+    python sb2/reproduce.py figures --workspace outputs/quick/workspace --figure Fig1
+    python sb2/reproduce.py tables --workspace outputs/quick/workspace
+
+| Output | Description |
 | --- | --- |
-| `Fig1` | Arrival probabilities by machine size and fingerprint complexity |
-| `Fig2` | Exact stationary cooperation in six small encodings |
-| `Fig3` | Baseline, selection sweep, and encoding conventions |
-| `Fig4` | Crossed game design and variance decomposition |
-| `Fig5` | Episode lengths, ALLD replacement, and prior reweighting |
-| `FigS1` | Arrival floor, 14-encoding baseline, and finite mutation |
-| `FigS2` | Human strategy choice and Lempel–Ziv ordering sensitivity |
-| `Table1.tex` | Six main encodings, prior masses, and long-run cooperation |
-| `TableS1.tex` through `TableS9.tex` | Maps, OFAT, mechanisms, human counts, neighborhoods, exact checks, convergence, grid, reweighting |
+| `Fig1` | Arrival probabilities by minimal machine size and Lempel–Ziv fingerprint complexity |
+| `Fig2` | Exact long-run cooperation in six completely enumerated encodings |
+| `Fig3` | Long-run cooperation in large encodings, selection sweep, and encoding conventions |
+| `Fig4` | Crossed game-parameter grid and variance decomposition |
+| `Fig5` | Episode durations, ALLD exit rates, and prior reweighting |
+| `FigS1` | Automaton arrival floor, 14-encoding baseline comparison, and finite mutation rates |
+| `FigS2` | Human strategy choice and Lempel–Ziv outcome-ordering sensitivity |
+| `Table 1` & `Tables S1–S9` | Main-text encoding summary and all Supplementary Information tables |
 
-The table command writes table bodies for inspection and reuse. Some outputs depend on historical aggregates included with Dataset S2 rather than on newly rerun original simulations.
+## Full Reproduction from Scratch
 
-## Full reproduction
+To recompute all six exact stationary distributions directly without `Dataset_S2_data.zip`:
 
-```sh
-python sb2/reproduce.py exact
-python sb2/reproduce.py full --dataset-s2 ./Dataset_S2_data.zip --workers 1
-```
+    python sb2/reproduce.py exact
 
-`exact` runs all six complete enumerations without a data archive. Use `--encoding TAB1` for a smaller standalone check. `full` computes the revised simulations and samples, builds their reweighting priors, runs the reweighted chains and exact solvers, then produces the same analysis outputs as Quick. It imports the historical aggregates and transcribed human-choice counts from the verified archive. The revision batches are themselves runnable from the included code and manifests. The complete historical workflow still requires archived v1 outputs.
+*(Pass `--encoding TAB1` for a rapid single-encoding check.)*
 
-The revised simulation seeds are in `configs/run*/tasks.json`. The archived task durations total about 64 CPU-core hours for the revised stochastic experiment. Start with one worker. Higher concurrency multiplies peak worker memory. The audit machine had 20 logical CPUs and 31.7 GiB RAM. Budget several GB of disk space for the archive, extracted inputs, generated priors, results, and compilation caches. Quick and Full require a fresh output path. Use `--output outputs/quick-2` for a second Quick run. The audited Quick, core tests, smoke checks, and six-encoding exact computation passed. The full formal stochastic workload was **not** executed in that audit; prior experiment results and historical v1 aggregates remain part of the input archive. Do not describe Quick as a complete independent rerun of all underlying simulations.
+To execute the full stochastic simulation pipeline, prior sampling, reweighted chains, and exact solvers (fixed random seeds in `configs/run*/tasks.json`; ~64 core-hours total compute time):
 
-## Code and data availability
+    python sb2/reproduce.py full --dataset-s2 ./Dataset_S2_data.zip --workers 1
 
-- `sb2/` holds the model, simulation runner, exact solver, analysis, figures, tables, and test entry points.
-- `configs/` holds the four revised task manifests. Large data archives and derived outputs are external.
+*Note:* Increase `--workers` according to available CPU cores and RAM (each worker holds phenotype hash registries in memory). Specify a new `--output` directory when running multiple reproduction passes.
 
-Dataset S2 contains archived simulation outputs, historical aggregate inputs, and a transcription of Table A5 from Dal Bó and Fréchette (2019). Permission to redistribute the transcription and other included material must be checked before publication of a data asset. Original article: [Dal Bó and Fréchette (2019)](https://pubs.aeaweb.org/doi/abs/10.1257/aer.20181480). The repository can be used for data-free `test`, `smoke`, and `exact` commands without Dataset S2.
+## Repository Structure
 
-For now, refer to *Strategy representations act as hidden priors in the evolution of cooperation*, revised submission package, Datasets S1 and S2. Add verified author names, bibliographic metadata, and the approved code/data DOI or commit identifier when available.
-
-## Release and licensing status
-
-The research code and Dataset S2 are publicly available on GitHub.
-
-Release v1.0.0: https://github.com/Daisy30823/strategy-representation-cooperation/releases/tag/v1.0.0
-
-Dataset S2 is provided as a separate downloadable ZIP attachment. No software license is currently declared. Redistribution permissions for included third-party material remain to be confirmed.
+- `sb2/` — Core model, genotype compilers, Moore-machine minimizer, Markov-chain solvers, evolutionary simulation runners, statistical analyses, figure/table generators, and unit tests.
+- `configs/` — Task manifests and fixed random-number seeds for simulation and sampling runs.
+- `requirements.txt` — Python package dependencies.
